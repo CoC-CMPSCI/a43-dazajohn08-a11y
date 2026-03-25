@@ -6,20 +6,16 @@ int main()
     int num1, num2, num3;
     int min;
 
-    if (!(cin >> num1 >> num2 >> num3)) return 0;
+    cin >> num1 >> num2 >> num3;
 
-    
     min = num1;
 
-    if (num2 < min) {
+    if (num2 < min)
         min = num2;
-    }
 
-    if (num3 < min) {
+    if (num3 < min)
         min = num3;
-    }
 
-    
     cout << "The smallest number is  " << min << endl;
 
     return 0;

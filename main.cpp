@@ -8,7 +8,7 @@ int main()
 
     if (!(cin >> num1 >> num2 >> num3)) return 0;
 
-   
+    
     min = num1;
 
     if (num2 < min) {
